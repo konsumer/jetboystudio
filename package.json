@@ -1,0 +1,12 @@
+{
+  "name": "jetboystudio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "surge pub/ jetboystudio.com"
+  },
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "devDependencies": {
+    "surge": "^0.21.3"
+  }
+}
