@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "deploy": "surge pub/ jetboystudio.com"
+    "deploy": "now --prod",
+    "start": "now dev"
   },
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
   "devDependencies": {
-    "surge": "^0.21.3"
+    "now": "^16.4.4"
   }
 }
